@@ -1,0 +1,18 @@
+# Node.js files
+node_modules/
+npm-debug.log*
+
+# Composer files
+composer.phar
+
+# macOS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# Miscellaneous files
+*.log
