@@ -15,8 +15,8 @@ Marketo Impact Integration is a WordPress plugin that integrates Marketo forms w
 - Composer (for dependency management)
 
 ## Installation
-1. Download or clone the plugin files.
-2. Place the files in the `wp-content/plugins/marketo-impact-integration` directory.
+1. Download the latest release zip file from the [`/dist` directory](https://github.com/joellombardo/marketo-impact-integration/tree/main/dist) or build it yourself using the instructions in the **Development** section.
+2. Extract the zip file and place the files in the `wp-content/plugins/marketo-impact-integration` directory.
 3. Activate the plugin from the WordPress **Plugins** menu.
 4. Configure the plugin under **Settings > Marketo Impact Integration**.
 
@@ -31,8 +31,11 @@ Minify JavaScript:
 ```
 npx gulp
 ```
+Build Release: Generate a production-ready zip file in the `/dist` directory:
+```
+npx gulp build
+```
 Enable debug mode in plugin settings for detailed logging during development.
 
 ## License
 This plugin is licensed under the [GPLv2 (or later)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
-

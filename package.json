@@ -11,6 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^5.0.0",
-    "gulp-terser": "^2.1.0"
+    "gulp-filter": "^9.0.1",
+    "gulp-terser": "^2.1.0",
+    "gulp-zip": "^5.1.0"
   }
 }
