@@ -1,16 +1,17 @@
-# Marketo Impact Integration
+# Marketo impact.com/advocate Integration for WordPress
 
-Marketo Impact Integration is a WordPress plugin that integrates Marketo forms with Impact.com for referral tracking. It captures form fields and securely sends user data using JWT authentication.
+Marketo impact.com/advocate Integration is a WordPress plugin that integrates Marketo forms with impact.com/advocate for referral tracking. It captures form fields and securely sends user data using JWT authentication.
 
 ## Features
 - Capture and send data from Marketo forms to Impact.com.
 - Generate JWTs for secure API communication.
+- Inject referral code from SaaSquatch tracking cookies into optional Marketo field.
 - Inject Universal Tracking Tags into your site.
 - Debug mode for verbose logging during development.
 
 ## Requirements
-- PHP 7.4 or higher
-- WordPress 5.5 or higher
+- Tested on PHP 8.3 or higher
+- Tested on WordPress 6.7 or higher
 - Node.js (for development)
 - Composer (for dependency management)
 
@@ -18,7 +19,7 @@ Marketo Impact Integration is a WordPress plugin that integrates Marketo forms w
 1. Download the latest release zip file from the [`/dist` directory](https://github.com/joellombardo/marketo-impact-integration/tree/main/dist) or build it yourself using the instructions in the **Development** section.
 2. Extract the zip file and place the files in the `wp-content/plugins/marketo-impact-integration` directory.
 3. Activate the plugin from the WordPress **Plugins** menu.
-4. Configure the plugin under **Settings > Marketo Impact Integration**.
+4. Configure the plugin under **Tools > Marketo impact/advocate Integration**.
 
 ## Development
 Install dependencies:
