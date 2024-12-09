@@ -2,7 +2,7 @@
 /*
 Plugin Name: Marketo impact.com/advocate Integration
 Description: Integrate Marketo forms with impact.com/advocate by capturing and upserting user data.
-Version: 1.1.3
+Version: 1.1.7
 Author: Joel Lombardo
 */
 
